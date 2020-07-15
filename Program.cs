@@ -25,7 +25,13 @@ namespace MyFirstGitHubConsoleApp
             int mySecondNumber = 10;
 
             // Print the Total to the Console App
-            Console.WriteLine($"myFirstNumber: {myFirstNumber} plus mySecondNumber: {mySecondNumber} = {myFirstNumber + mySecondNumber}");
+            Console.WriteLine($"myFirstNumber: {myFirstNumber} plus mySecondNumber: {mySecondNumber} = {myFirstNumber + mySecondNumber} \n");
+
+            string strPhraseOne = "Rocking and rollin'";
+            string strPhraseTwo = "Hippin' and hoppin'";
+
+            Console.WriteLine($"strPhraseOne: {strPhraseOne} and strPhraseTwo: {strPhraseTwo} = {strPhraseOne} ... {strPhraseTwo}");
+
 
         }
     }
