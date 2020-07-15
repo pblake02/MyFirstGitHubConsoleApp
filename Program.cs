@@ -29,7 +29,8 @@ namespace MyFirstGitHubConsoleApp
 
             string strPhraseOne = "Rocking and rollin'";
             string strPhraseTwo = "Hippin' and hoppin'";
-
+            
+            //Concatenate and display two phrases
             Console.WriteLine($"strPhraseOne: {strPhraseOne} and strPhraseTwo: {strPhraseTwo} = {strPhraseOne} ... {strPhraseTwo}");
 
 
